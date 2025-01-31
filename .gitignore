@@ -1,0 +1,69 @@
+dist/
+bin/
+
+### OSX ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.npmrc
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.test
+
+### VisualStudioCode ###
+.vscode/*
+# !.vscode/settings.json
+# ignore .vscode settings.json for now
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### IntelliJ ###
+.idea
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+# Cypress
+cypress.env.json
+cypress/videos/*
+cypress/screenshots/*
+cypress/reports/*
+
+#LambdaTest
+cypress/results/*
+reports/*
+allure-results/*
+
+# Webpack
+stats.json
